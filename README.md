@@ -1,2 +1,2 @@
 # RegMon
-Rust program to monitor Windows 10 Registry keys for changes or modifications.
+This Rust program monitors changes to multiple registry keys in Windows 10 and writes the changes to a text file. It also periodically sends a report to a C2 server using HTTP POST requests. This can be useful for tracking changes made to the system by malicious software or for debugging purposes. The program uses the winapi, winreg, and reqwest crates. Simply provide your own API key and C2 server URL and you are ready to go.
